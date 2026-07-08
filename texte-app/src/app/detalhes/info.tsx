@@ -6,7 +6,7 @@ export default function DetalhesInfoPage() {
 
   return (
     <View style={styles.container}>
-      <TouchableOpacity style={styles.botao} onPress={() => router.back()}>
+      <TouchableOpacity style={styles.botao} onPress={() => router.push('/')}>
         <Text style={styles.textBotao}>← Voltar</Text>
       </TouchableOpacity>
 
